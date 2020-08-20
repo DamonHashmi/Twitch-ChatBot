@@ -18,8 +18,8 @@ class Bot(SingleServerIRCBot):
         self.HOST = "irc.chat.twitch.tv"
         self.PORT = 6667
         self.USERNAME = OWNER
-        self.CLIENT_ID = "7ngs9r8jvognfar513820c7kpl37je"
-        self.TOKEN = "qgeitqger4vmbt00ym166muwikx8y6"
+        self.CLIENT_ID = "Add Your Client  ID here"
+        self.TOKEN = "Add Your Token Here"
         self.CHANNEL = f"#{OWNER}"
         url = f"https://api.twitch.tv/kraken/users?login={self.USERNAME}"
         headers = {"Client-ID": self.CLIENT_ID, "Accept": 'application/vnd.twitchtv.v5+json'}
